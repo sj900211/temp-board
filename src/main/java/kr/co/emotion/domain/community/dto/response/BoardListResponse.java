@@ -1,0 +1,24 @@
+package kr.co.emotion.domain.community.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+
+/**
+ * 커뮤니티 관리 > 게시글 목록 Response
+ *
+ * @since 2021-02-19 @author 류성재
+ */
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class BoardListResponse {
+
+    private Long id;
+    private String title;
+    private Integer hit;
+    private LocalDateTime createDt;
+
+}
