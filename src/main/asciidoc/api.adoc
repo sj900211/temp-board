@@ -1,0 +1,91 @@
+ifndef::snippets[]
+:snippets: ../../../target/generated-snippets
+endif::[]
+:toc: left
+:toclevels: 3
+:sectlinks:
+
+= 커뮤니티 관리
+
+[[board]]
+== 게시글 관리
+
+[[board-docs]]
+=== 통합 게시글 관리
+
+[[get-board-page]]
+==== 게시글 조회 - Page
+
+===== Request Parameters
+include::{snippets}/community-controller-test/get-board-page/request-parameters.adoc[]
+
+===== Response Fields
+include::{snippets}/community-controller-test/get-board-page/response-fields.adoc[]
+
+===== Request HTTP Example
+include::{snippets}/community-controller-test/get-board-page/http-request.adoc[]
+
+===== Response HTTP Example
+include::{snippets}/community-controller-test/get-board-page/http-response.adoc[]
+
+---
+
+[[get-board]]
+==== 게시글 조회
+
+===== Path Parameters
+include::{snippets}/community-controller-test/get-board/path-parameters.adoc[]
+
+===== Response Fields
+include::{snippets}/community-controller-test/get-board/response-fields.adoc[]
+
+===== Request HTTP Example
+include::{snippets}/community-controller-test/get-board/http-request.adoc[]
+
+===== Response HTTP Example
+include::{snippets}/community-controller-test/get-board/http-response.adoc[]
+
+---
+
+[[create-board]]
+==== 게시글 등록
+
+===== Request Fields
+include::{snippets}/community-controller-test/create-board/request-fields.adoc[]
+
+===== Request HTTP Example
+include::{snippets}/community-controller-test/create-board/http-request.adoc[]
+
+===== Response HTTP Example
+include::{snippets}/community-controller-test/create-board/http-response.adoc[]
+
+---
+
+[[update-board]]
+==== 게시글 수정
+
+===== Path Parameters
+include::{snippets}/community-controller-test/update-board/path-parameters.adoc[]
+
+===== Request Fields
+include::{snippets}/community-controller-test/update-board/request-fields.adoc[]
+
+===== Request HTTP Example
+include::{snippets}/community-controller-test/update-board/http-request.adoc[]
+
+===== Response HTTP Example
+include::{snippets}/community-controller-test/update-board/http-response.adoc[]
+
+---
+
+[[delete-board]]
+==== 게시글 삭제
+
+===== Path Parameters
+include::{snippets}/community-controller-test/delete-board/path-parameters.adoc[]
+
+===== Request HTTP Example
+include::{snippets}/community-controller-test/delete-board/http-request.adoc[]
+
+===== Response HTTP Example
+include::{snippets}/community-controller-test/delete-board/http-response.adoc[]
